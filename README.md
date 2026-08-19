@@ -8,14 +8,14 @@ This repository hosts release binaries only; it is the download source
 for the Homebrew formula:
 
 ```bash
-brew install cowboyinc/lasso/cowboy
+brew install cowboyinc/tap/cowboy
 ```
 
 Most people want [lasso](https://github.com/cowboyinc/lasso), the
 interactive console, which installs this CLI automatically:
 
 ```bash
-brew install cowboyinc/lasso/lasso
+brew install cowboyinc/tap/lasso
 ```
 
 ## Platforms
