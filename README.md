@@ -20,8 +20,14 @@ brew install cowboyinc/tap/lasso
 
 ## Platforms
 
-- macOS Apple Silicon (`cowboy-darwin-arm64`) — available now
-- macOS Intel and Linux — planned (CI cross-builds)
+Each release has one archive per platform, holding `cowboy`, the
+`cowboy-dev-runner` local simulator and `lasso`, and a `SHA256SUMS` file
+covering the archives:
+
+- `cowboy-darwin-arm64.tar.xz` — macOS Apple Silicon
+- `cowboy-darwin-x64.tar.xz` — macOS Intel
+- `cowboy-linux-arm64.tar.xz` — Linux arm64
+- `cowboy-linux-x64.tar.xz` — Linux x86_64
 
 ## Quick start
 
