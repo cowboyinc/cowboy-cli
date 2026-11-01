@@ -11,12 +11,8 @@ for the Homebrew formula:
 brew install cowboyinc/tap/cowboy
 ```
 
-Most people want [lasso](https://github.com/cowboyinc/lasso), the
-interactive console, which installs this CLI automatically:
-
-```bash
-brew install cowboyinc/tap/lasso
-```
+The formula also installs `lasso`, the interactive console, and the
+`cowboy-dev-runner` local simulator from the same archive.
 
 ## Platforms
 
@@ -24,8 +20,7 @@ Each release has one archive per platform, holding `cowboy`, the
 `cowboy-dev-runner` local simulator and `lasso`, and a `SHA256SUMS` file
 covering the archives:
 
-- `cowboy-darwin-arm64.tar.xz` — macOS Apple Silicon
-- `cowboy-darwin-x64.tar.xz` — macOS Intel
+- `cowboy-darwin-arm64.tar.xz` — macOS Apple Silicon (Intel Macs are not supported)
 - `cowboy-linux-arm64.tar.xz` — Linux arm64
 - `cowboy-linux-x64.tar.xz` — Linux x86_64
 
